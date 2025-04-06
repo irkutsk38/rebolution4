@@ -44,7 +44,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    GLFWwindow* mainWindow = glfwCreateWindow(WIDTH, HEIGHT, "help me please", nullptr, nullptr);
+    GLFWwindow* mainWindow = glfwCreateWindow(WIDTH, HEIGHT, "luminar", nullptr, nullptr);
     if (!mainWindow) {
         fprintf(stderr, "Window creation failed.\n");
         glfwTerminate();
